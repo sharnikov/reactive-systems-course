@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mKVStoreSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step1-case1: Primary (in isolation) should properly register itself to the provided Arbiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step1-case2: Primary (in isolation) should react properly to Insert, Remove, Get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step2-case1: Secondary (in isolation) should properly register itself to the provided Arbiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step2-case2: Secondary (in isolation) must handle Snapshots[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step2-case3: Secondary should drop and immediately ack snapshots with older sequence numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step2-case4: Secondary should drop snapshots with future sequence numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step3-case1: Replicator should send snapshots when asked to replicate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step3-case2: Replicator should retry until acknowledged by secondary[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step4-case1: Secondary should not acknowledge snapshots until persisted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step4-case2: Secondary should retry persistence in every 100 milliseconds[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step5-case1: Primary does not acknowledge updates which have not been persisted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step5-case2: Primary retries persistence every 100 milliseconds[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step5-case3: Primary generates failure after 1 second if persistence fails[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step5-case4: Primary generates failure after 1 second if global acknowledgement fails[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step5-case5: Primary acknowledges only after persistence and global acknowledgement[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step6-case1: Primary must start replication to new replicas[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step6-case2: Primary must stop replication to removed replicas and stop Replicator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Step6-case3: Primary must stop replication to removed replicas and waive their outstanding acknowledgements[0m[0m

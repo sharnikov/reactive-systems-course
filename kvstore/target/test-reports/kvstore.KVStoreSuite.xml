@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="oleg-comp" name="kvstore.KVStoreSuite" tests="18" errors="0" failures="0" skipped="0" time="26.617">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="idea.runid" value="2018.2.1+4-88400d3f"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/><property name="java.vm.version" value="25.212-b03"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/oleg/Documents/Coursera/kvstore"/><property name="java.runtime.version" value="1.8.0_212-8u212-b03-0ubuntu1.18.10.1-b03"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-3413823/jna6436589187149796653.tmp"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="4.18.0-25-generic"/><property name="user.home" value="/home/oleg"/><property name="user.timezone" value="Europe/Kirov"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/home/oleg/.IdeaIC2019.1/config/plugins/Scala/launcher/sbt-launch.jar"/><property name="user.name" value="oleg"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/home/oleg/.IdeaIC2019.1/config/plugins/Scala/launcher/sbt-launch.jar ; set ideaPort in Global := 38839 ; idea-shell"/><property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_212"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="kvstore.KVStoreSuite" name="Step1-case1: Primary (in isolation) should properly register itself to the provided Arbiter" time="0.1">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step1-case2: Primary (in isolation) should react properly to Insert, Remove, Get" time="0.034">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step2-case1: Secondary (in isolation) should properly register itself to the provided Arbiter" time="0.002">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step2-case2: Secondary (in isolation) must handle Snapshots" time="0.041">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step2-case3: Secondary should drop and immediately ack snapshots with older sequence numbers" time="0.028">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step2-case4: Secondary should drop snapshots with future sequence numbers" time="0.361">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step3-case1: Replicator should send snapshots when asked to replicate" time="12.033">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step3-case2: Replicator should retry until acknowledged by secondary" time="0.236">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step4-case1: Secondary should not acknowledge snapshots until persisted" time="0.553">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step4-case2: Secondary should retry persistence in every 100 milliseconds" time="0.753">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step5-case1: Primary does not acknowledge updates which have not been persisted" time="0.135">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step5-case2: Primary retries persistence every 100 milliseconds" time="0.341">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step5-case3: Primary generates failure after 1 second if persistence fails" time="1.037">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step5-case4: Primary generates failure after 1 second if global acknowledgement fails" time="1.142">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step5-case5: Primary acknowledges only after persistence and global acknowledgement" time="0.657">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step6-case1: Primary must start replication to new replicas" time="9.055">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step6-case2: Primary must stop replication to removed replicas and stop Replicator" time="0.069">
+                                                 
+                                               </testcase><testcase classname="kvstore.KVStoreSuite" name="Step6-case3: Primary must stop replication to removed replicas and waive their outstanding acknowledgements" time="0.04">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

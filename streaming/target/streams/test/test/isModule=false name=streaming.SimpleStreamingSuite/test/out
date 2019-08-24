@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleStreamingSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- map simple values to strings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- filter even values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- provide a Flow that can filter out even numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- provide a Flow that can filter out even numbers by reusing previous flows[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- firstElementSource should only emit one element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- firstElementFuture should only emit one element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- recover from a failure into a backup element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- recover from a failure into a backup stream[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- sum until back-pressure goes away[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- keep repeating last observed value[0m[0m

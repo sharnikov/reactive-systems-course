@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/oleg/Documents/ReactiveCourse/followers/target/scala-2.11/reactive-followers_2.11-0.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	followers/model/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oleg/Documents/ReactiveCourse/followers/src/main/scala/followers/model/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	followers/model/Event.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oleg/Documents/ReactiveCourse/followers/src/main/scala/followers/model/Event.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	followers/model/Identity.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oleg/Documents/ReactiveCourse/followers/src/main/scala/followers/model/Identity.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	followers/Server.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oleg/Documents/ReactiveCourse/followers/src/main/scala/followers/Server.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	followers/ExtraStreamOps.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oleg/Documents/ReactiveCourse/followers/src/main/scala/followers/ExtraStreamOps.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
